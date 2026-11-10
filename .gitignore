@@ -1,0 +1,8 @@
+out/
+*/out/
+*.mp4
+node_modules/
+_poc/tools/
+_poc/refs/
+__pycache__/
+*.pyc

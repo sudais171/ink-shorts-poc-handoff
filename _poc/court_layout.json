@@ -1,0 +1,167 @@
+[
+ {
+  "role": "bench",
+  "file": "downloads/court/judge_bench.glb",
+  "at": [
+   0,
+   0.25,
+   -1.45
+  ],
+  "rot": 0,
+  "s": 1
+ },
+ {
+  "role": "chair",
+  "file": "downloads/court/judge_chair.glb",
+  "at": [
+   0,
+   0.25,
+   -1.99
+  ],
+  "rot": 0,
+  "s": 1
+ },
+ {
+  "role": "witness",
+  "file": "downloads/court/witness_stand.glb",
+  "at": [
+   -1.55,
+   0,
+   -0.75
+  ],
+  "rot": 0.55,
+  "s": 1
+ },
+ {
+  "role": "pew1",
+  "file": "downloads/court/pew.glb",
+  "at": [
+   -1.3,
+   0,
+   1.05
+  ],
+  "rot": 3.14159,
+  "s": 1
+ },
+ {
+  "role": "pew2",
+  "file": "downloads/court/pew.glb",
+  "at": [
+   1.3,
+   0,
+   1.05
+  ],
+  "rot": 3.14159,
+  "s": 1
+ },
+ {
+  "role": "pew3",
+  "file": "downloads/court/pew.glb",
+  "at": [
+   -1.3,
+   0,
+   1.85
+  ],
+  "rot": 3.14159,
+  "s": 1
+ },
+ {
+  "role": "pew4",
+  "file": "downloads/court/pew.glb",
+  "at": [
+   1.3,
+   0,
+   1.85
+  ],
+  "rot": 3.14159,
+  "s": 1
+ },
+ {
+  "role": "evtable",
+  "file": "downloads/hero/table3.glb",
+  "at": [
+   1.45,
+   0,
+   -0.45
+  ],
+  "rot": -0.15,
+  "h": 0.44
+ },
+ {
+  "role": "evidence",
+  "file": "downloads/court/evidence.glb",
+  "at": [
+   1.45,
+   "EVTABLE",
+   -0.45
+  ],
+  "rot": -0.15,
+  "s": 1
+ },
+ {
+  "role": "lamp",
+  "file": "downloads/court/desk_lamp.glb",
+  "at": [
+   0.36,
+   "BENCH",
+   -1.6
+  ],
+  "rot": 0,
+  "s": 0.85
+ },
+ {
+  "role": "block",
+  "file": "downloads/court/block.glb",
+  "at": [
+   -0.38,
+   "BENCH",
+   -1.72
+  ],
+  "rot": 0,
+  "s": 1
+ },
+ {
+  "role": "chand1",
+  "file": "downloads/hero/chandelier4.glb",
+  "at": [
+   -1.0,
+   "CEIL",
+   0.1
+  ],
+  "rot": 0,
+  "h": 0.42
+ },
+ {
+  "role": "chand2",
+  "file": "downloads/hero/chandelier4.glb",
+  "at": [
+   1.0,
+   "CEIL",
+   0.1
+  ],
+  "rot": 0,
+  "h": 0.42
+ },
+ {
+  "role": "sconce1",
+  "file": "downloads/hero/sconce4.glb",
+  "at": [
+   -1.5,
+   1.3,
+   -2.4
+  ],
+  "rot": 0,
+  "h": 0.22
+ },
+ {
+  "role": "sconce2",
+  "file": "downloads/hero/sconce4.glb",
+  "at": [
+   1.5,
+   1.3,
+   -2.4
+  ],
+  "rot": 0,
+  "h": 0.22
+ }
+]

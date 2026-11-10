@@ -1,0 +1,1015 @@
+{
+ "note": "three.js coordinates, 1 unit = a person's height (~1.75 m). Poly Haven models are in metres: scale 1/1.75.",
+ "room": {
+  "x0": -1.8,
+  "x1": 1.8,
+  "z0": -1.5,
+  "z1": 1.6,
+  "h": 1.7
+ },
+ "window": {
+  "z0": -1.0,
+  "z1": 0.35,
+  "y0": 0.42,
+  "y1": 1.32
+ },
+ "door": {
+  "x0": 0.7,
+  "x1": 1.25,
+  "y1": 1.22
+ },
+ "sun": [
+  -0.3,
+  0.5,
+  0.85
+ ],
+ "lantern_light": [
+  -0.62,
+  0.62,
+  0.0
+ ],
+ "models": [
+  {
+   "id": "round_wooden_table_01",
+   "at": [
+    -0.62,
+    0,
+    0.0
+   ],
+   "rot": 0.3
+  },
+  {
+   "id": "Rockingchair_01",
+   "at": [
+    -1.25,
+    0,
+    0.55
+   ],
+   "rot": 2.2
+  },
+  {
+   "id": "wine_barrel_01",
+   "at": [
+    -1.42,
+    0,
+    -1.12
+   ],
+   "rot": 0.6
+  },
+  {
+   "id": "wooden_crate_01",
+   "at": [
+    1.3,
+    0,
+    -1.15
+   ],
+   "rot": -0.35
+  },
+  {
+   "id": "painted_wooden_cabinet",
+   "at": [
+    -0.35,
+    0,
+    -1.36
+   ],
+   "rot": 0
+  },
+  {
+   "id": "wooden_lantern_01",
+   "at": [
+    -0.68,
+    "TABLE",
+    -0.06
+   ],
+   "rot": 0.5
+  },
+  {
+   "id": "wooden_candlestick",
+   "at": [
+    -0.55,
+    "CABINET",
+    -1.38
+   ],
+   "rot": 0
+  },
+  {
+   "id": "fancy_picture_frame_01",
+   "at": [
+    -0.35,
+    0.98,
+    -1.49
+   ],
+   "rot": 0
+  },
+  {
+   "id": "lantern_chandelier_01",
+   "at": [
+    -0.62,
+    "CEIL",
+    0.0
+   ],
+   "rot": 0
+  }
+ ],
+ "dynamic": {
+  "id": "jug_01"
+ },
+ "sets": {
+  "kk": [
+   {
+    "role": "table",
+    "file": "downloads/kk/KayKit-Restaurant-Bits-1.0-main/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A.gltf",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/kk/KayKit-Furniture-Bits-1.0-main/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/kk/KayKit-Dungeon-Remastered-1.0-main/addons/kaykit_dungeon_remastered/Assets/gltf/barrel_large.gltf.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/kk/KayKit-Restaurant-Bits-1.0-main/addons/kaykit_restaurant_bits/Assets/gltf/crate.gltf",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/kk/KayKit-Furniture-Bits-1.0-main/addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium.gltf",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.56
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/kk/KayKit-Furniture-Bits-1.0-main/addons/kaykit_furniture_bits/Assets/gltf/lamp_table.gltf",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/kk/KayKit-Dungeon-Remastered-1.0-main/addons/kaykit_dungeon_remastered/Assets/gltf/candle_lit.gltf.glb",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "ph": [
+   {
+    "role": "table",
+    "file": "downloads/ph/round_wooden_table_01/round_wooden_table_01_1k.gltf",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/ph/Rockingchair_01/Rockingchair_01_1k.gltf",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/ph/wine_barrel_01/wine_barrel_01_1k.gltf",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/ph/wooden_crate_01/wooden_crate_01_1k.gltf",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/ph/painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.56
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/ph/wooden_lantern_01/wooden_lantern_01_1k.gltf",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/ph/wooden_candlestick/wooden_candlestick_1k.gltf",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "st": [
+   {
+    "role": "table",
+    "file": "downloads/st/round_wooden_table_01.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/st/Rockingchair_01.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/st/wine_barrel_01.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/st/wooden_crate_01.glb",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/st/painted_wooden_cabinet.glb",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.56
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/st/wooden_lantern_01.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/st/wooden_candlestick.glb",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "hero": [
+   {
+    "role": "table",
+    "file": "downloads/hero/table.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/hero/chair.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/hero/barrel.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/ph/wooden_crate_01/wooden_crate_01_1k.gltf",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/ph/painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.56
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/hero/lantern.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/ph/wooden_candlestick/wooden_candlestick_1k.gltf",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "hero2": [
+   {
+    "role": "table",
+    "file": "downloads/hero/table2.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/hero/chair2.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/hero/barrel.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/ph/wooden_crate_01/wooden_crate_01_1k.gltf",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/ph/painted_wooden_cabinet/painted_wooden_cabinet_1k.gltf",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.56
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/hero/lantern.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/ph/wooden_candlestick/wooden_candlestick_1k.gltf",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "hero3": [
+   {
+    "role": "table",
+    "file": "downloads/hero/table3.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/hero/chair3.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/hero/barrel.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/ph/wooden_crate_01/wooden_crate_01_1k.gltf",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/hero/cabinet3.glb",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.5
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/hero/lantern.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/ph/wooden_candlestick/wooden_candlestick_1k.gltf",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.13
+   },
+   {
+    "role": "frame",
+    "file": "downloads/ph/fancy_picture_frame_01/fancy_picture_frame_01_1k.gltf",
+    "at": [
+     -0.35,
+     0.98,
+     -1.49
+    ],
+    "rot": 0,
+    "h": 0.3
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/ph/lantern_chandelier_01/lantern_chandelier_01_1k.gltf",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   }
+  ],
+  "hero4": [
+   {
+    "role": "table",
+    "file": "downloads/hero/table3.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/hero/chair3.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/hero/barrel.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/hero/crate4.glb",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/hero/cabinet3.glb",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.5
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/hero/lantern.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/hero/candlestick4.glb",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.15
+   },
+   {
+    "role": "frame",
+    "file": "downloads/hero/frame4.glb",
+    "at": [
+     -0.35,
+     0.9,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.34
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/hero/chandelier4.glb",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   },
+   {
+    "role": "sconce",
+    "file": "downloads/hero/sconce4.glb",
+    "at": [
+     0.25,
+     0.8,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.22
+   },
+   {
+    "role": "sconce2",
+    "file": "downloads/hero/sconce4.glb",
+    "at": [
+     -0.95,
+     0.8,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.22
+   },
+   {
+    "role": "frame2",
+    "file": "downloads/hero/frame4.glb",
+    "at": [
+     0.975,
+     0.62,
+     -2.88
+    ],
+    "rot": 0,
+    "h": 0.26
+   }
+  ],
+  "hero5": [
+   {
+    "role": "table",
+    "file": "downloads/hero/table3.glb",
+    "at": [
+     -0.62,
+     0,
+     0.0
+    ],
+    "rot": 0.3,
+    "h": 0.44
+   },
+   {
+    "role": "chair",
+    "file": "downloads/hero/chair3.glb",
+    "at": [
+     -1.25,
+     0,
+     0.55
+    ],
+    "rot": 2.2,
+    "h": 0.6
+   },
+   {
+    "role": "barrel",
+    "file": "downloads/hero/barrel.glb",
+    "at": [
+     -1.42,
+     0,
+     -1.12
+    ],
+    "rot": 0.6,
+    "h": 0.5
+   },
+   {
+    "role": "crate",
+    "file": "downloads/hero/crate4.glb",
+    "at": [
+     1.3,
+     0,
+     -1.15
+    ],
+    "rot": -0.35,
+    "h": 0.3
+   },
+   {
+    "role": "cabinet",
+    "file": "downloads/hero/cabinet3.glb",
+    "at": [
+     -0.35,
+     0,
+     -1.36
+    ],
+    "rot": 0,
+    "h": 0.5
+   },
+   {
+    "role": "lantern",
+    "file": "downloads/hero/lantern.glb",
+    "at": [
+     -0.68,
+     "TABLE",
+     -0.06
+    ],
+    "rot": 0.5,
+    "h": 0.2
+   },
+   {
+    "role": "candle",
+    "file": "downloads/hero/candlestick4.glb",
+    "at": [
+     -0.55,
+     "CABINET",
+     -1.38
+    ],
+    "rot": 0,
+    "h": 0.15
+   },
+   {
+    "role": "frame",
+    "file": "downloads/hero/frame4.glb",
+    "at": [
+     -0.35,
+     0.9,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.34
+   },
+   {
+    "role": "chandelier",
+    "file": "downloads/hero/chandelier4.glb",
+    "at": [
+     -0.62,
+     "CEIL",
+     0.0
+    ],
+    "rot": 0,
+    "h": 0.42
+   },
+   {
+    "role": "sconce",
+    "file": "downloads/hero/sconce4.glb",
+    "at": [
+     0.25,
+     0.8,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.22
+   },
+   {
+    "role": "sconce2",
+    "file": "downloads/hero/sconce4.glb",
+    "at": [
+     -0.95,
+     0.8,
+     -1.5
+    ],
+    "rot": 0,
+    "h": 0.22
+   },
+   {
+    "role": "frame2",
+    "file": "downloads/hero/frame4.glb",
+    "at": [
+     0.8,
+     0.62,
+     -2.9
+    ],
+    "rot": 0,
+    "h": 0.26
+   },
+   {
+    "role": "sconce3",
+    "file": "downloads/hero/sconce4.glb",
+    "at": [
+     1.12,
+     0.8,
+     -2.9
+    ],
+    "rot": 0,
+    "h": 0.22
+   }
+  ]
+ },
+ "jug": {
+  "kk": "downloads/kk/KayKit-Restaurant-Bits-1.0-main/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_medium.gltf",
+  "ph": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "st": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "h": 0.15,
+  "hero": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "hero2": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "hero3": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "hero4": "downloads/ph/jug_01/jug_01_1k.gltf",
+  "hero5": "downloads/hero/jug5.glb"
+ }
+}
